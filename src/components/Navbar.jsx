@@ -37,7 +37,7 @@ const {data:session, isPending} = useSession();
         
       </ul>
     </div>
-    <Image src={logo} className='h-[45px] w-[170px]' alt="logo"></Image>
+    <Image src={logo} className='sm:block hidden h-[45px] w-[170px]' alt="logo"></Image>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -54,7 +54,7 @@ const {data:session, isPending} = useSession();
   </div>
   <div className="navbar-end space-x-[15px]">
  {!isPending && !session ? <div className='flex gap-[10px]' >
-    <Link href="/login" className="btn bg-amber-800 text-white">Login</Link>
+    <Link href="/login" className="btn text-center bg-amber-800 text-white">Login</Link>
     <Link href="/register" className="btn bg-amber-800 text-white">Register</Link>
     </div> :
         <div className='flex items-center justify-between gap-[15px]'>
