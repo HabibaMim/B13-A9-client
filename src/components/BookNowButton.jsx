@@ -17,8 +17,12 @@ const totalCost = hours > 0 ? hours * (room?.["Hourly Rate"] || 0) : 0;
         e.preventDefault();
         const {data : jwtData} = await authClient.token();
         const token =jwtData?.token;
-        if(!token){
+        if(!token ){
             toast.error("Authentication Failed! Booking Not Added.")
+            return;
+        }
+        if(totalCost<= 0){
+            toast.error("Please select Valid start and end times")
             return;
         }
         const updatedData = {
