@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "Room Name": "Quiet Corner Study Room",
+    "Description": "A peaceful private study room designed for focused individual or small group sessions.",
+    "Image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+    "Floor": "2nd Floor",
+    "Capacity": 4,
+    "Hourly Rate": 5,
+    "Amenities": [
+      "Wi-Fi",
+      "Power Outlets",
+      "Quiet Zone",
+      "Air Conditioning"
+    ]
+  },
+  {
+    "id": 2,
+    "Room Name": "Modern Learning Hub",
+    "Description": "A modern study space with comfortable seating and facilities for productive learning.",
+    "Image": "https://images.unsplash.com/photo-1568667256549-094345857637",
+    "Floor": "3rd Floor",
+    "Capacity": 6,
+    "Hourly Rate": 8,
+    "Amenities": [
+      "Whiteboard",
+      "Projector",
+      "Wi-Fi",
+      "Power Outlets"
+    ]
+  },
+  {
+    "id": 3,
+    "Room Name": "Silent Reading Room",
+    "Description": "A calm environment ideal for reading, research, and deep concentration.",
+    "Image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+    "Floor": "1st Floor",
+    "Capacity": 3,
+    "Hourly Rate": 4,
+    "Amenities": [
+      "Wi-Fi",
+      "Quiet Zone",
+      "Air Conditioning"
+    ]
+  },
+  {
+    "id": 4,
+    "Room Name": "Group Discussion Room",
+    "Description": "Spacious room suitable for team discussions, meetings, and collaborative study.",
+    "Image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+    "Floor": "4th Floor",
+    "Capacity": 8,
+    "Hourly Rate": 10,
+    "Amenities": [
+      "Whiteboard",
+      "Projector",
+      "Wi-Fi",
+      "Power Outlets"
+    ]
+  },
+  {
+    "id": 5,
+    "Room Name": "Focus Study Suite",
+    "Description": "A private workspace with a quiet atmosphere for uninterrupted studying.",
+    "Image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "Floor": "2nd Floor",
+    "Capacity": 2,
+    "Hourly Rate": 3,
+    "Amenities": [
+      "Wi-Fi",
+      "Quiet Zone",
+      "Power Outlets"
+    ]
+  },
+  {
+    "id": 6,
+    "Room Name": "Academic Workspace",
+    "Description": "A comfortable study room equipped for long study sessions and research work.",
+    "Image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "Floor": "5th Floor",
+    "Capacity": 5,
+    "Hourly Rate": 7,
+    "Amenities": [
+      "Wi-Fi",
+      "Air Conditioning",
+      "Power Outlets",
+      "Quiet Zone"
+    ]
+  },
+  {
+    "id": 7,
+    "Room Name": "Creative Study Room",
+    "Description": "A flexible room designed for brainstorming, projects, and creative learning.",
+    "Image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8",
+    "Floor": "3rd Floor",
+    "Capacity": 6,
+    "Hourly Rate": 9,
+    "Amenities": [
+      "Whiteboard",
+      "Wi-Fi",
+      "Projector"
+    ]
+  },
+  {
+    "id": 8,
+    "Room Name": "Premium Study Lounge",
+    "Description": "A premium private room with modern facilities for comfortable studying.",
+    "Image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+    "Floor": "6th Floor",
+    "Capacity": 4,
+    "Hourly Rate": 12,
+    "Amenities": [
+      "Air Conditioning",
+      "Wi-Fi",
+      "Power Outlets",
+      "Quiet Zone"
+    ]
+  },
+  {
+    "id": 9,
+    "Room Name": "Research Room",
+    "Description": "A dedicated room for students who need a quiet place for research and assignments.",
+    "Image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+    "Floor": "1st Floor",
+    "Capacity": 3,
+    "Hourly Rate": 6,
+    "Amenities": [
+      "Wi-Fi",
+      "Quiet Zone",
+      "Whiteboard"
+    ]
+  },
+  {
+    "id": 10,
+    "Room Name": "Smart Study Room",
+    "Description": "Technology-equipped study room for presentations and digital learning.",
+    "Image": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    "Floor": "4th Floor",
+    "Capacity": 7,
+    "Hourly Rate": 11,
+    "Amenities": [
+      "Projector",
+      "Wi-Fi",
+      "Power Outlets",
+      "Air Conditioning"
+    ]
+  },
+  {
+    "id": 11,
+    "Room Name": "Library Study Cabin",
+    "Description": "A compact private cabin for students looking for a distraction-free space.",
+    "Image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6",
+    "Floor": "2nd Floor",
+    "Capacity": 2,
+    "Hourly Rate": 4,
+    "Amenities": [
+      "Quiet Zone",
+      "Wi-Fi",
+      "Power Outlets"
+    ]
+  },
+  {
+    "id": 12,
+    "Room Name": "Collaboration Room",
+    "Description": "A spacious room for group learning, workshops, and study sessions.",
+    "Image": "https://unsplash.com/photos/library-shelf-near-black-wooden-ladder-lc7xcWebECc",
+    "Floor": "5th Floor",
+    "Capacity": 10,
+    "Hourly Rate": 15,
+    "Amenities": [
+      "Whiteboard",
+      "Projector",
+      "Wi-Fi",
+      "Air Conditioning"
+    ]
+  }
+]
