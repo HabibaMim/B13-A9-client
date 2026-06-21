@@ -6,6 +6,10 @@ import Image from 'next/image';
 import { redirect } from 'next/navigation';
 import React from 'react';
 
+export const metadata = {
+    title: "StudyNook - My Bookings",
+};
+
 const BookingsPage = async () => {
     const { token } = await auth.api.getToken({
         headers: await headers(),

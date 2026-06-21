@@ -3,6 +3,10 @@ import { redirect } from "next/navigation";
 import React from "react";
 
 
+export const metadata = {
+    title: "StudyNook - Add Room",
+};
+
 const CATEGORIES = [
                                 "Whiteboard",
                                 "Projector",

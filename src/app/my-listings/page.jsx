@@ -7,6 +7,10 @@ import { redirect } from "next/navigation";
 import DeleteModal from "@/components/DeleteModal";
 import { Button } from "@heroui/react";
 
+export const metadata = {
+    title: "StudyNook - My Listings",
+};
+
 const MyListingsPage = async () => {
   const { token } = await auth.api.getToken({
           headers: await headers(),

@@ -5,6 +5,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+
+export async function generateMetadata({ params }) {
+    const { id } = await params;
+    
+    return {
+        title: `StudyNook - Room Details`,
+    };
+}
+
 const fetchSingleRoom = async(id, token)=>{
     
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/rooms/${id}`, {

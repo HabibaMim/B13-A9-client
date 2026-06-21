@@ -3,6 +3,15 @@ import { auth } from '@/lib/auth';
 import { headers } from 'next/headers';
 import React from 'react';
 
+
+export async function generateMetadata({ params }) {
+    const { id } = await params;
+    
+    return {
+        title: `StudyNook - Update Room`,
+    };
+}
+
 const fetchRoom = async (id, token) => {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/rooms/${id}`, {
         headers: {
