@@ -82,6 +82,7 @@ const totalCost = hours > 0 ? hours * (room?.["Hourly Rate"] || 0) : 0;
                     <input
                         type="date"
                         required
+                        min={new Date().toISOString().split('T')[0]}
                         className="input input-bordered w-full mt-1 border-amber-200"
                     />
                 </div>
