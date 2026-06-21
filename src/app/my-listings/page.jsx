@@ -29,6 +29,7 @@ const MyListingsPage = async () => {
       })
   
       const myRooms = await res.json() || [];
+      console.log("myRooms:", myRooms);
 
 
   return (

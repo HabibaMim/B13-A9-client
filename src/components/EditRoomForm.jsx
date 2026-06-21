@@ -60,7 +60,9 @@ const EditRoomForm = ({room}) => {
                         <input
                         defaultValue={roomImage}
                             name="image"
+                           
                             type="url"
+                            required
                             placeholder="https://example.com/image.jpg"
                             className="input input-bordered w-full mt-2 border-amber-200"
                         />
@@ -74,6 +76,7 @@ const EditRoomForm = ({room}) => {
                         defaultValue={Floor}
                             name="floor"
                             type="text"
+                            required
                             placeholder="Example: 3rd Floor"
                             className="input input-bordered w-full mt-2 border-amber-200"
                         />
@@ -87,6 +90,7 @@ const EditRoomForm = ({room}) => {
                         defaultValue={Capacity}
                             name="capacity"
                             type="number"
+                            required
                             placeholder="Example: 4"
                             className="input input-bordered w-full mt-2 border-amber-200"
                         />
@@ -100,6 +104,7 @@ const EditRoomForm = ({room}) => {
                         defaultValue={hourlyRate}
                             name="hourlyRate"
                             type="number"
+                            required
                             placeholder="Example: 5"
                             className="input input-bordered w-full mt-2 border-amber-200"
                         />
