@@ -1,6 +1,6 @@
 # StudyNook 📚
 
-**Live Site:** [https://your-live-site-url.vercel.app](https://your-live-site-url.vercel.app) *(replace with your deployed URL)*
+**Live Site:** https://studynook-liart-rho.vercel.app
 
 StudyNook is a full-stack web application for finding study rooms or listing your own rooms for users to find.
 ## Features
