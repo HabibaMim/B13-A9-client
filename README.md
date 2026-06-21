@@ -5,12 +5,12 @@
 StudyNook is a full-stack web application for finding study rooms or listing your own rooms for users to find.
 ## Features
 
-- 🔍 **Smart Search & Filtering** — Search rooms by name or amenity, and filter results by multiple amenities (Wi-Fi, Projector, Whiteboard, and more) at the same time.
-- 📅 **Book At Convenient Times** — Book any room for a specific date and time slot.
+- 🔍 **Smart Search & Filtering** — Search rooms by name and filter results by multiple amenities (Wi-Fi, Projector, Whiteboard, and more).
+- 📅 **Book At Convenient Times** — Book any room at a specific date and time slot.
 - 🔐 **Secure Authentication** — Private routes are protected using Authentication in the website.
-- 🏠 **Room Management Dashboard** — Room owners can add, update, and delete their own listings from a dedicated "My Listings" page.
+- 🏠 **Room Management For Owners** — Room owners can add, update, and delete their own listings
 - 🧾 **Personal Booking History** — Every user has a "My Bookings" dashboard to view and cancel their own reservations.
-- 📱 **Responsive Design** — Built with Tailwind CSS, HeroUI, and DaisyUI for a clean, mobile-friendly experience across different devices.
+- 📱 **Responsive Design** — Built with Tailwind CSS, HeroUI, and DaisyUI for user-friendly experience across different devices.
 
 ## Tech Stack
 
