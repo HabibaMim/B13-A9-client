@@ -28,8 +28,8 @@ const {data:session, isPending} = useSession();
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li className='font-semibold'><Link href="">Home</Link></li>
-        <li className='font-semibold'><Link href="">Rooms</Link></li>
+        <li className='font-semibold'><Link href="/">Home</Link></li>
+        <li className='font-semibold'><Link href="/rooms">Rooms</Link></li>
         {!isPending && session && <>
       <li className='font-semibold'><Link href="/add-room">Add Room</Link></li>
       <li className='font-semibold'><Link href="/my-listings">My Listings</Link></li>
@@ -41,7 +41,7 @@ const {data:session, isPending} = useSession();
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className='font-semibold text-[17px]'><Link href="./">Home</Link></li>
+      <li className='font-semibold text-[17px]'><Link href="/">Home</Link></li>
       
       <li className='font-semibold text-[17px]'><Link href="/rooms">Rooms</Link></li>
       {!isPending && session && <>

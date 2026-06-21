@@ -16,6 +16,7 @@ const AddRoomPage = async () => {
     "use server"
     const data = await addRoom (formData)
     if(data?.insertedId) {
+
         redirect("/my-listings")
     }
     }

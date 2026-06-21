@@ -13,7 +13,7 @@ const Footer = () => {
   <nav>
     <h6 className="footer-title text-amber-100">Useful Links</h6>
     <Link href="/" className="link link-hover text-amber-50">Home</Link>
-    <Link href="" className="link link-hover text-amber-50">Rooms</Link>
+    <Link href="/rooms" className="link link-hover text-amber-50">Rooms</Link>
     <a className="link link-hover text-amber-50">About</a>
   </nav>
 

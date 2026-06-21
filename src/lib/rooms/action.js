@@ -58,13 +58,20 @@ const data = await res.json();
 
 };
 
-export const deleteRoom = async (id)=>{
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/rooms/${id}`,{
-        method : "DELETE"
-    })
+export const deleteRoom = async (id) => {
+    const { token } = await auth.api.getToken({   // ✅ get the token
+        headers: await headers(),
+    });
+
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/rooms/${id}`, {
+        method: "DELETE",
+        headers: {
+            Authorization: `Bearer ${token}`,   // ✅ send it
+        },
+    });
     const data = await res.json();
-    if(!res.ok) return;
-    revalidatePath("/my-listings")
+    if (!res.ok) return;
+    revalidatePath("/my-listings");
     return data;
 }
 
